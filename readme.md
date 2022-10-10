@@ -22,9 +22,9 @@ https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1
 ```
 
 - format：返回内容的格式
-  - 不带：返回的结果为xml格式
-  - js：返回为json格式
-  - xml：返回为xml格式
+    - 不带：返回的结果为xml格式
+    - js：返回为json格式
+    - xml：返回为xml格式
 
 - idx：0为当天的图片，1为昨天的图片，以此类推，最大为7
 
@@ -34,7 +34,7 @@ https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1
 
 以json格式为例，分析接口返回的内容
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212519.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=MmJkM2UwNDVkMTAxYTc4M2ViNGM5ZTZmZGFmNzBhYTFfWGthREt1UHExZGpTVUlNajFFV2xIdW1hSG1aQ0dLQzFfVG9rZW46Ym94Y25nSHNpcW9URGxwWTN3dnFmVjNjSTNkXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
 url就是我们需要的，加上bing官网的域名（"https://cn.bing.com"）就得到了图片的访问地址;
 
@@ -159,39 +159,39 @@ xxx.ico为你的图标路径
 
 1. 按下`windows键+x`,打开计算机管理
 
-2. 点击任务任务计划程序
+1. 点击任务任务计划程序
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212521.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWQwZWM5MjViNmVjNTllZmZkNGViNWJlOWU0ODJjM2JfRGRaV2U0MU95M0dwdUJRajhaTTFiTHRZMGxEaXJvc0NfVG9rZW46Ym94Y25FcE1nU1hmcjdkUjQwTmpYd0dpeUFiXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
-3. 点击创建基本任务，设置好任务名
+1. 点击创建基本任务，设置好任务名
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212522.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=MWFjMTBmOGQ5MzNiN2IyMWM0MzA2MmExNWI3YmQxOWNfcUFBNVNoSlBORDZSU2hIWkRlNURwQ3FyWmJrdDB1clpfVG9rZW46Ym94Y256bmNmT1pwaDN6V1ZTNWlnMzV1bmZnXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
-4. 点击下一步，选择每天
+1. 点击下一步，选择每天
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212523.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=NDEyMDllNDI1YmYxNDJlMjNhZTU1ZWIyNDdmOWZkNDFfdE16b2ZnZVI4RjkwUER3M3FtUHl0NndEU3FaRHRqY0VfVG9rZW46Ym94Y25aMVM2bGd1d2tBQ2V3WGZHODZLT3ViXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
-5. 设置好执行的时间
+1. 设置好执行的时间
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212524.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=MTA5Mjk0MTgxNmExNTZmNDQ2ODg3N2NhMGI5OTA3NjRfMEtQQ0MzRXBYODhkM2dTS2ZUN2RtemFaVTQ4bjRGd3RfVG9rZW46Ym94Y25qTzVXVFI0OFZWdThKazBpaUo1MlNoXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
-6. 下一步，操作选择启动程序
+1. 下一步，操作选择启动程序
 
-7. 选择你的打包好的exe文件所在的路径（我的放到了桌面）
+1. 选择你的打包好的exe文件所在的路径（我的放到了桌面）
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212525.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=MjVkOGVhN2I0Y2FlMzkxODRlYjFiNDkxNjI1ZTBjOWJfNVhGQUczbjc0eVhmclZNaVNFWEl0eXV6SFh1Y2hOejJfVG9rZW46Ym94Y25USzVydFJveU5lTWxWc045eWpaaE9pXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
-8. 右键刚刚配置好的任务，点击属性->条件
+1. 右键刚刚配置好的任务，点击属性->条件
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212526.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=NGJkN2Y3MjdkYTRlN2FhMjcxZjVjMDc1Mzc5M2ViOGFfQVliYzhGT2owQVV4MnBRUng5MmV4VUxBSTQ3bnZ2bnlfVG9rZW46Ym94Y25qVkg0SGRmVUFUbDVGY2ExTndiN1plXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
 将电源这一栏取消
 
-9.点击设置
+1. 点击设置
 
-​	将`如果过了计划开始时间，立即启动` 勾上
+将`如果过了计划开始时间，立即启动` 勾上
 
-![img](https://wang-1310173418.cos.ap-guangzhou.myqcloud.com/blogs/202207291212527.png)
+![img](https://ldjrv1ct5f.feishu.cn/space/api/box/stream/download/asynccode/?code=MGYxZDUyOGE3ZDgwMDdjZDA1NDlhZWRkMGU1NzkzOGNfR1BSQ3F2Y1pwejJwd2VwcnVVajFvSTRpOVFCdGdoUWNfVG9rZW46Ym94Y241akhFYms5YjkxUDBCWnN1cGt0RWNGXzE2NjUzNjQ5MDc6MTY2NTM2ODUwN19WNA)
 
 可根据需求自行设置。
 
